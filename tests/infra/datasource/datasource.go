@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
 )
 
 type DataSource struct {

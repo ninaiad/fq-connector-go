@@ -5,7 +5,7 @@ import (
 	"github.com/apache/arrow/go/v13/arrow/array"
 	"go.uber.org/zap"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 // Acceptor is a fundamental type class that is used during data extraction from the data source

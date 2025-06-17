@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/zap"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type defaultSchemaProvider struct {

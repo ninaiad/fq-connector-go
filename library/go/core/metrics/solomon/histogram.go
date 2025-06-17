@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors"
 	"go.uber.org/atomic"
 )
 

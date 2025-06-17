@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 var (

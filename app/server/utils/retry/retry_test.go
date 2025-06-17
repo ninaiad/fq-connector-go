@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 func TestRetry(t *testing.T) {

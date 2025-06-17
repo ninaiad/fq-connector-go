@@ -3,10 +3,10 @@ package client
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/ydb-platform/fq-connector-go/app/client/connector"
-	"github.com/ydb-platform/fq-connector-go/app/client/metrics"
-	"github.com/ydb-platform/fq-connector-go/app/client/observation"
-	"github.com/ydb-platform/fq-connector-go/app/client/ydb"
+	"github.com/ninaiad/fq-connector-go/app/client/connector"
+	"github.com/ninaiad/fq-connector-go/app/client/metrics"
+	"github.com/ninaiad/fq-connector-go/app/client/observation"
+	"github.com/ninaiad/fq-connector-go/app/client/ydb"
 )
 
 var Cmd = &cobra.Command{

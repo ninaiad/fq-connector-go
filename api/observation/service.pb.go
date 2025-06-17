@@ -7,7 +7,7 @@
 package observation
 
 import (
-	protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"

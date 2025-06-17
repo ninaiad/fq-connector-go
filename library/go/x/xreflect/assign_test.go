@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xreflect"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xreflect"
 )
 
 type Foo struct {

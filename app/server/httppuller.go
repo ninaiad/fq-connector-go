@@ -8,8 +8,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/solomon"
-	"github.com/ydb-platform/fq-connector-go/library/go/httputil/headers"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/solomon"
+	"github.com/ninaiad/fq-connector-go/library/go/httputil/headers"
 )
 
 type MetricsStreamer interface {

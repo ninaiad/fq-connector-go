@@ -11,7 +11,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type versionData struct {
@@ -87,7 +87,7 @@ func run(logger *zap.Logger) error {
 			return fmt.Errorf("get home dir: %w", err)
 		}
 
-		filepath = homeDir + "/arcadia/vendor/github.com/ydb-platform/fq-connector-go/app/version/version_init.go"
+		filepath = homeDir + "/arcadia/vendor/github.com/ninaiad/fq-connector-go/app/version/version_init.go"
 	default:
 		data, err = getGitVersion()
 		if err != nil {
@@ -336,7 +336,7 @@ func getTagAndGoVersion() (versionsInfo, error) {
 		return versions, fmt.Errorf("get home dir: %w", err)
 	}
 
-	filepath := homeDir + "/arcadia/vendor/github.com/ydb-platform/fq-connector-go/.yo.snapshot.json"
+	filepath := homeDir + "/arcadia/vendor/github.com/ninaiad/fq-connector-go/.yo.snapshot.json"
 
 	data, err := os.ReadFile(filepath)
 	if err != nil {

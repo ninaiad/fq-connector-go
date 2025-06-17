@@ -3,9 +3,9 @@ package solomon
 import (
 	"context"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/collect"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/collect"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
 )
 
 type RegistryOpts struct {

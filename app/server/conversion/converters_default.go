@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var _ Collection = collectionDefault{}

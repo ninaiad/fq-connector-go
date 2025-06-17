@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	pkgerrors "github.com/pkg/errors"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/benchxerrors"
-	"github.com/ydb-platform/fq-connector-go/library/go/test/testhelpers"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors/benchxerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/test/testhelpers"
 	"golang.org/x/xerrors"
 )
 

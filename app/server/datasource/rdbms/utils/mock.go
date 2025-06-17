@@ -10,9 +10,9 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
 )
 
 var _ Connection = (*ConnectionMock)(nil)

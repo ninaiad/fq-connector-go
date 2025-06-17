@@ -8,11 +8,11 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/ydb"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/ydb"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type connectionManager struct {

@@ -7,7 +7,7 @@
 package protos
 
 import (
-	common "github.com/ydb-platform/fq-connector-go/api/common"
+	common "github.com/ninaiad/fq-connector-go/api/common"
 	Ydb "github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 	Ydb_Issue "github.com/ydb-platform/ydb-go-genproto/protos/Ydb_Issue"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

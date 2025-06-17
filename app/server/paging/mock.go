@@ -4,7 +4,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 var _ Sink[any] = (*SinkMock)(nil)

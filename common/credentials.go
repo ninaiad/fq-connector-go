@@ -3,7 +3,7 @@ package common
 import (
 	"os"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
 )
 
 func MaybeInjectTokenToDataSourceInstance(dsi *api_common.TGenericDataSourceInstance) {

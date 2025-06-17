@@ -9,9 +9,9 @@ import (
 	"github.com/apache/arrow/go/v13/arrow/array"
 	"github.com/redis/go-redis/v9"
 
-	dsredis "github.com/ydb-platform/fq-connector-go/app/server/datasource/nosql/redis"
-	"github.com/ydb-platform/fq-connector-go/tests/infra/datasource"
-	"github.com/ydb-platform/fq-connector-go/tests/suite"
+	dsredis "github.com/ninaiad/fq-connector-go/app/server/datasource/nosql/redis"
+	"github.com/ninaiad/fq-connector-go/tests/infra/datasource"
+	"github.com/ninaiad/fq-connector-go/tests/suite"
 )
 
 type Suite struct {

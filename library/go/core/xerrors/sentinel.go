@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xreflect"
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xruntime"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xreflect"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xruntime"
 )
 
 // NewSentinel acts as New but does not add stack frame

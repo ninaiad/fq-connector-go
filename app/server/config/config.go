@@ -10,9 +10,9 @@ import (
 	"google.golang.org/protobuf/encoding/prototext"
 	"sigs.k8s.io/yaml"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 func makeDefaultExponentialBackoffConfig() *config.TExponentialBackoffConfig {

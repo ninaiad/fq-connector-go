@@ -8,7 +8,7 @@ package service
 
 import (
 	context "context"
-	protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

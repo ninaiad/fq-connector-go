@@ -2,9 +2,9 @@ package prometheus
 
 import (
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/internal/pkg/metricsutil"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/internal/pkg/metricsutil"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors"
 )
 
 var _ metrics.CounterVec = (*CounterVec)(nil)

@@ -1,6 +1,6 @@
 package nop
 
-import "github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
+import "github.com/ninaiad/fq-connector-go/library/go/core/metrics"
 
 var _ metrics.Gauge = (*Gauge)(nil)
 

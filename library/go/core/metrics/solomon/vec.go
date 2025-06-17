@@ -3,8 +3,8 @@ package solomon
 import (
 	"sync"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
 )
 
 // metricsVector is a base implementation of vector of metrics of any supported type.

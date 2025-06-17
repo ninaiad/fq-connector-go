@@ -3,7 +3,7 @@ package metricsutil
 import (
 	"sort"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
 )
 
 // BucketsBounds unwraps Buckets bounds to slice of float64.

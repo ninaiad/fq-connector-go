@@ -8,9 +8,9 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
 )
 
 type Factory[T paging.Acceptor] interface {

@@ -11,9 +11,9 @@ import (
 	pingcap_errors "github.com/pingcap/errors"
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var _ rdbms_utils.ConnectionManager = (*connectionManager)(nil)

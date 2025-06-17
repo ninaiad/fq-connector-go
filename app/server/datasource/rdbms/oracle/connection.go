@@ -7,9 +7,9 @@ import (
 	go_ora "github.com/sijms/go-ora/v2"
 	"go.uber.org/zap"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var _ rdbms_utils.Connection = (*connection)(nil)

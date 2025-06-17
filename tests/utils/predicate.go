@@ -3,8 +3,8 @@ package utils
 import (
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 func MakePredicateComparisonColumn(

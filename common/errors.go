@@ -22,8 +22,8 @@ import (
 	ydb_proto "github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 	"github.com/ydb-platform/ydb-go-sdk/v3"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 var (

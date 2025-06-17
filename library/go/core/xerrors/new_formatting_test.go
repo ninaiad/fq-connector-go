@@ -3,7 +3,7 @@ package xerrors
 import (
 	"testing"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors"
 )
 
 func TestNewFormatting(t *testing.T) {
@@ -15,16 +15,16 @@ func TestNewFormatting(t *testing.T) {
 		ExpectedV: "new",
 		Frames: assertxerrors.NewStackTraceModeExpectation(`
 new
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
         library/go/core/xerrors/new_formatting_test.go:11
 `,
 		),
 		Stacks: assertxerrors.NewStackTraceModeExpectation(`
 new
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
         library/go/core/xerrors/new_formatting_test.go:11
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
-        /home/sidh/devel/go/src/github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:83
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
+        /home/sidh/devel/go/src/github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:83
     testing.tRunner
         /home/sidh/.ya/tools/v4/774223543/src/testing/testing.go:1127
 `,
@@ -32,10 +32,10 @@ new
 		),
 		StackThenFrames: assertxerrors.NewStackTraceModeExpectation(`
 new
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
         library/go/core/xerrors/new_formatting_test.go:11
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
-        /home/sidh/devel/go/src/github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:83
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
+        /home/sidh/devel/go/src/github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:83
     testing.tRunner
         /home/sidh/.ya/tools/v4/774223543/src/testing/testing.go:1127
 `,
@@ -43,10 +43,10 @@ new
 		),
 		StackThenNothing: assertxerrors.NewStackTraceModeExpectation(`
 new
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestNewFormatting.func1
         library/go/core/xerrors/new_formatting_test.go:11
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
-        /home/sidh/devel/go/src/github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:83
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
+        /home/sidh/devel/go/src/github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:83
     testing.tRunner
         /home/sidh/.ya/tools/v4/774223543/src/testing/testing.go:1127
 `,

@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/tests/infra/datasource"
-	"github.com/ydb-platform/fq-connector-go/tests/infra/docker_compose"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/tests/infra/datasource"
+	"github.com/ninaiad/fq-connector-go/tests/infra/docker_compose"
 )
 
 const (

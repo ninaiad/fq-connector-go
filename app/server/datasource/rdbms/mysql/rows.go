@@ -12,11 +12,11 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type fieldValue struct {

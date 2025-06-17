@@ -6,8 +6,8 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 func runClient(cmd *cobra.Command, _ []string) error {

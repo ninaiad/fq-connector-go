@@ -6,9 +6,9 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	"github.com/ydb-platform/fq-connector-go/common"
-	"github.com/ydb-platform/fq-connector-go/library/go/ptr"
-	test_utils "github.com/ydb-platform/fq-connector-go/tests/utils"
+	"github.com/ninaiad/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/library/go/ptr"
+	test_utils "github.com/ninaiad/fq-connector-go/tests/utils"
 )
 
 var memPool memory.Allocator = memory.NewGoAllocator()

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ydb-platform/fq-connector-go/library/go/httputil/headers"
+	"github.com/ninaiad/fq-connector-go/library/go/httputil/headers"
 )
 
 func TestContentTypeConsts(t *testing.T) {

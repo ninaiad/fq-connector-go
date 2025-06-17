@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/ptr"
+	"github.com/ninaiad/fq-connector-go/library/go/ptr"
 )
 
 type sizeFn func(any) (uint64, acceptorKind, error)

@@ -9,7 +9,7 @@ import (
 	"github.com/ydb-platform/ydb-go-sdk/v3"
 	"github.com/ydb-platform/ydb-go-sdk/v3/query"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 var ydbConfig = &config.TYdbConfig{

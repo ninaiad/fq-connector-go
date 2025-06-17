@@ -12,16 +12,16 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	api_service "github.com/ydb-platform/fq-connector-go/api/service"
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	"github.com/ydb-platform/fq-connector-go/app/server/observation"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
-	"github.com/ydb-platform/fq-connector-go/app/server/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/solomon"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	api_service "github.com/ninaiad/fq-connector-go/api/service"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	"github.com/ninaiad/fq-connector-go/app/server/observation"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
+	"github.com/ninaiad/fq-connector-go/app/server/utils"
+	"github.com/ninaiad/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/solomon"
 )
 
 type serviceConnector struct {

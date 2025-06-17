@@ -7,7 +7,7 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/ydb-platform/fq-connector-go/library/go/httputil/headers"
+	"github.com/ninaiad/fq-connector-go/library/go/httputil/headers"
 )
 
 // examples for tests taken from https://tools.ietf.org/html/rfc2616#section-14.3

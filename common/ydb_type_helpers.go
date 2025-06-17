@@ -7,7 +7,7 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 func MakePrimitiveType(typeId Ydb.Type_PrimitiveTypeId) *Ydb.Type {

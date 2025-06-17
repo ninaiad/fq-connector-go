@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
 )
 
 var _ DataSource[any] = (*DataSourceMock[any])(nil)

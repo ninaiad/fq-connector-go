@@ -5,7 +5,7 @@ import "yql/essentials/providers/common/proto/gateways_config.proto";
 import "app/config/client.proto";
 import "app/config/server.proto";
 
-option go_package = "github.com/ydb-platform/fq-connector-go/app/config";
+option go_package = "github.com/ninaiad/fq-connector-go/app/config";
 
 message TBenchmarkConfig {
     // We can either connect to remote Connector server 

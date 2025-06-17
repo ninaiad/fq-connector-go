@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xsync"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xsync"
 )
 
 var _ metrics.CollectPolicy = (*inflightPolicy)(nil)

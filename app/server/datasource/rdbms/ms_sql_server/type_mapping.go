@@ -8,12 +8,12 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
-	"github.com/ydb-platform/fq-connector-go/app/server/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
+	"github.com/ninaiad/fq-connector-go/app/server/utils"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var _ datasource.TypeMapper = typeMapper{}
@@ -30,7 +30,7 @@ func (typeMapper) SQLTypeToYDBColumn(columnName, typeName string, rules *api_ser
 	_ = rules
 
 	// MS SQL Server Data Types https://learn.microsoft.com/ru-ru/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16
-	// Reference table: https://github.com/ydb-platform/fq-connector-go/blob/main/docs/type_mapping_table.md
+	// Reference table: https://github.com/ninaiad/fq-connector-go/blob/main/docs/type_mapping_table.md
 	switch typeName {
 	case "bit":
 		ydbType = common.MakePrimitiveType(Ydb.Type_BOOL)

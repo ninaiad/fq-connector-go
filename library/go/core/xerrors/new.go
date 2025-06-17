@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xruntime"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xruntime"
 )
 
 type newError struct {

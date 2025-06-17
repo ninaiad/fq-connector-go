@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource"
 )
 
 var _ SplitProvider = (*defaultSplitProvider)(nil)

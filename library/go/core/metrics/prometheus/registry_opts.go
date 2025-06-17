@@ -5,9 +5,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/expfmt"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/collect"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/collect"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
 )
 
 type PrometheusRegistry interface {

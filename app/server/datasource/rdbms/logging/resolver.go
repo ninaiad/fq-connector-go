@@ -6,8 +6,8 @@ import (
 
 	"go.uber.org/zap"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 type Resolver interface {

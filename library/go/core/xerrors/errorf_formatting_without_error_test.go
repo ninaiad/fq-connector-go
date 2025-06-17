@@ -3,7 +3,7 @@ package xerrors
 import (
 	"testing"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors"
 )
 
 func TestErrorfFormattingWithoutError(t *testing.T) {
@@ -15,16 +15,16 @@ func TestErrorfFormattingWithoutError(t *testing.T) {
 		ExpectedV: "errorf: not an error",
 		Frames: assertxerrors.NewStackTraceModeExpectation(`
 errorf: not an error
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
         library/go/core/xerrors/errorf_formatting_without_error_test.go:11
 `,
 		),
 		Stacks: assertxerrors.NewStackTraceModeExpectation(`
 errorf: not an error
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
         library/go/core/xerrors/errorf_formatting_without_error_test.go:11
-github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
-        /home/sidh/devel/go/src/github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:18
+github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
+        /home/sidh/devel/go/src/github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:18
     testing.tRunner
         /home/sidh/.ya/tools/v4/774223543/src/testing/testing.go:1127
 `,
@@ -32,10 +32,10 @@ github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.Ru
 		),
 		StackThenFrames: assertxerrors.NewStackTraceModeExpectation(`
 errorf: not an error
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
         library/go/core/xerrors/errorf_formatting_without_error_test.go:11
-github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
-        /home/sidh/devel/go/src/github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:18
+github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
+        /home/sidh/devel/go/src/github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:18
     testing.tRunner
         /home/sidh/.ya/tools/v4/774223543/src/testing/testing.go:1127
 `,
@@ -43,10 +43,10 @@ github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.Ru
 		),
 		StackThenNothing: assertxerrors.NewStackTraceModeExpectation(`
 errorf: not an error
-    github.com/ydb-platform/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
+    github.com/ninaiad/fq-connector-go/library/go/core/xerrors.TestErrorfFormattingWithoutError.func1
         library/go/core/xerrors/errorf_formatting_without_error_test.go:11
-github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
-        /home/sidh/devel/go/src/github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:18
+github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors.RunTestsPerMode.func1
+        /home/sidh/devel/go/src/github.com/ninaiad/fq-connector-go/library/go/core/xerrors/assertxerrors/assertxerrors.go:18
     testing.tRunner
         /home/sidh/.ya/tools/v4/774223543/src/testing/testing.go:1127
 `,

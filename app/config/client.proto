@@ -3,7 +3,7 @@ package NYql.Connector.App.Config;
 
 import "yql/essentials/providers/common/proto/gateways_config.proto";
 
-option go_package = "github.com/ydb-platform/fq-connector-go/app/config";
+option go_package = "github.com/ninaiad/fq-connector-go/app/config";
 
 // Connector client configuration
 message TClientConfig {

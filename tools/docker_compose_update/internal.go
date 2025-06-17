@@ -65,7 +65,7 @@ func getLatestVersion() (string, error) {
 }
 
 func getChecksum(tag string) (string, error) {
-	baseLink := "https://github.com/ydb-platform/fq-connector-go/pkgs/container/fq-connector-go/tags"
+	baseLink := "https://github.com/ninaiad/fq-connector-go/pkgs/container/fq-connector-go/tags"
 
 	params := map[string]string{
 		"tag": tag,

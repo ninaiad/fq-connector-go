@@ -10,9 +10,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/ptr"
-	"github.com/ydb-platform/fq-connector-go/library/go/test/assertpb"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/ptr"
+	"github.com/ninaiad/fq-connector-go/library/go/test/assertpb"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

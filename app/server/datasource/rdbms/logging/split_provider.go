@@ -5,10 +5,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/ydb"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/ydb"
 )
 
 var _ rdbms_utils.SplitProvider = (*splitProviderImpl)(nil)

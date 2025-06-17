@@ -13,9 +13,9 @@ import (
 
 	"github.com/ydb-platform/ydb-go-sdk/v3/query"
 
-	"github.com/ydb-platform/fq-connector-go/app/client/utils"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/ydb"
+	"github.com/ninaiad/fq-connector-go/app/client/utils"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/ydb"
 )
 
 //nolint:gocyclo

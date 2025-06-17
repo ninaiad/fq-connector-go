@@ -5,7 +5,7 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"
-	"github.com/ydb-platform/fq-connector-go/library/go/ptr"
+	"github.com/ninaiad/fq-connector-go/library/go/ptr"
 	"go.uber.org/atomic"
 )
 

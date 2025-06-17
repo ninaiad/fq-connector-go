@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 // TestingServer is mainly used in integration tests or benchmarks.

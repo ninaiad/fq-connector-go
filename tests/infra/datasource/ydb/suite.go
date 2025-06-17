@@ -7,13 +7,13 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/common"
-	"github.com/ydb-platform/fq-connector-go/tests/infra/datasource"
-	"github.com/ydb-platform/fq-connector-go/tests/suite"
-	tests_utils "github.com/ydb-platform/fq-connector-go/tests/utils"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/tests/infra/datasource"
+	"github.com/ninaiad/fq-connector-go/tests/suite"
+	tests_utils "github.com/ninaiad/fq-connector-go/tests/utils"
 )
 
 type Suite struct {

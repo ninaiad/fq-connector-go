@@ -7,7 +7,7 @@
 package config
 
 import (
-	common "github.com/ydb-platform/fq-connector-go/api/common"
+	common "github.com/ninaiad/fq-connector-go/api/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

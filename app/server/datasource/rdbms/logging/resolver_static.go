@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 type staticResolver struct {

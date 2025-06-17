@@ -9,9 +9,9 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/metadata"
 
-	api_logging "github.com/ydb-platform/fq-connector-go/api/logging/v1"
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_logging "github.com/ninaiad/fq-connector-go/api/logging/v1"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type dynamicResolver struct {

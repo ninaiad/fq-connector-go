@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package NYql.Connector.App.Server.DataSource.RDBMS.Ydb;
 
-option go_package = "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/ydb/";
+option go_package = "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/ydb/";
 
 message TSplitDescription {
     message TDataShard {

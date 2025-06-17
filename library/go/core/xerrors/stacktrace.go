@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xruntime"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xruntime"
 )
 
 func writeStackTrace(w io.Writer, stacktrace *xruntime.StackTrace) {

@@ -3,7 +3,7 @@ package conversion
 import (
 	"time"
 
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type ValuePtrConverter[IN common.ValueType, OUT common.ValueType] interface {

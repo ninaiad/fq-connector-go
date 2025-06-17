@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/test/testhelpers"
+	"github.com/ninaiad/fq-connector-go/library/go/test/testhelpers"
 )
 
 func BenchmarkNew(b *testing.B) {

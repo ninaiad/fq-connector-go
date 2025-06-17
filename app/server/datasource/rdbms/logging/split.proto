@@ -4,7 +4,7 @@ package NYql.Connector.App.Server.DataSource.RDBMS.Logging;
 
 import "yql/essentials/providers/common/proto/gateways_config.proto";
 
-option go_package = "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/logging/";
+option go_package = "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/logging/";
 
 message TSplitDescription {
     // TYdb is used to describe the column shards of the OLAP YDB database 

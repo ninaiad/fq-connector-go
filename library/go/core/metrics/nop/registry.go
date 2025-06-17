@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
 )
 
 var _ metrics.Registry = (*Registry)(nil)

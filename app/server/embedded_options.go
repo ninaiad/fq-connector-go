@@ -3,7 +3,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 // EmbeddedOption parametrizes initialization of Connector server embedded into tests

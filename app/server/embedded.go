@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	app_server_config "github.com/ydb-platform/fq-connector-go/app/server/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	app_server_config "github.com/ninaiad/fq-connector-go/app/server/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 // serverEmbedded server is used in different kinds of tests, when it is important

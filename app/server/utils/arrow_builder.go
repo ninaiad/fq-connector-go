@@ -6,8 +6,8 @@ import (
 
 	"github.com/apache/arrow/go/v13/arrow/array"
 
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 func MakeAppender[

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/internal/modes"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors/internal/modes"
 )
 
 func RunPerMode(b *testing.B, bench func(b *testing.B)) {

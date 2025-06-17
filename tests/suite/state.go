@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ydb-platform/fq-connector-go/common"
-	"github.com/ydb-platform/fq-connector-go/tests/infra/docker_compose"
+	"github.com/ninaiad/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/tests/infra/docker_compose"
 )
 
 // CLI parameters

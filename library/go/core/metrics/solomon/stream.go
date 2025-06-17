@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors"
 )
 
 const HeaderSize = 24

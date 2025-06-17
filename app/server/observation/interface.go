@@ -7,9 +7,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	"github.com/ydb-platform/fq-connector-go/api/observation"
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	"github.com/ninaiad/fq-connector-go/api/observation"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 // Storage interface defines methods for query storage

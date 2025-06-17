@@ -16,11 +16,11 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
-	"github.com/ydb-platform/fq-connector-go/app/server/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
-	"github.com/ydb-platform/fq-connector-go/library/go/ptr"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
+	"github.com/ninaiad/fq-connector-go/app/server/utils"
+	"github.com/ninaiad/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/library/go/ptr"
 )
 
 type documentReader struct {

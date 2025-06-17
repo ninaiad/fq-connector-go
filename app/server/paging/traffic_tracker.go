@@ -3,10 +3,10 @@ package paging
 import (
 	"fmt"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/app/server/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/server/utils"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type trafficTracker[T Acceptor] struct {

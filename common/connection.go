@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 func makeConnection(logger *zap.Logger, cfg *config.TClientConfig, additionalOpts ...grpc.DialOption) (*grpc.ClientConn, error) {

@@ -10,10 +10,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	app_config "github.com/ydb-platform/fq-connector-go/app/config"
-	"github.com/ydb-platform/fq-connector-go/app/server/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	app_config "github.com/ninaiad/fq-connector-go/app/config"
+	"github.com/ninaiad/fq-connector-go/app/server/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var Cmd = &cobra.Command{

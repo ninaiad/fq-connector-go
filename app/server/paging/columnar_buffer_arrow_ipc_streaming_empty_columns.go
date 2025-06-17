@@ -9,7 +9,7 @@ import (
 	"github.com/apache/arrow/go/v13/arrow/ipc"
 	"github.com/apache/arrow/go/v13/arrow/memory"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 var _ ColumnarBuffer[any] = (*columnarBufferArrowIPCStreamingEmptyColumns[any])(nil)

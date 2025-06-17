@@ -8,7 +8,7 @@ import (
 	"github.com/apache/arrow/go/v13/arrow/memory"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/ptr"
+	"github.com/ninaiad/fq-connector-go/library/go/ptr"
 )
 
 func TestSortTableByID(t *testing.T) {

@@ -10,9 +10,9 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/common"
-	tests_utils "github.com/ydb-platform/fq-connector-go/tests/utils"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/common"
+	tests_utils "github.com/ninaiad/fq-connector-go/tests/utils"
 )
 
 func TestYqlStringFilter(t *testing.T) {

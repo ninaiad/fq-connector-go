@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors"
 	"golang.org/x/exp/slices"
 )
 

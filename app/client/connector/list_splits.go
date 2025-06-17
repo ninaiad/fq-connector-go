@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/client/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/client/utils"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 func listSplits(cmd *cobra.Command, _ []string) error {

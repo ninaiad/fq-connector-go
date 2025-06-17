@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/go-retryablehttp"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
 )
 
 // MetricsSnapshot is an instant view of statistics provided by the `fq-connector-go` service

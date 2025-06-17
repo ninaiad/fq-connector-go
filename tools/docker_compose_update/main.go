@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var pathesToComposes = [3]string{"/ydb/library/yql/providers/generic/connector/tests/datasource",

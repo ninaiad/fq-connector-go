@@ -3,7 +3,7 @@ package nop
 import (
 	"time"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
 )
 
 var _ metrics.Timer = (*Timer)(nil)

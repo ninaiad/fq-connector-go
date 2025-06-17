@@ -3,8 +3,8 @@ package xerrors
 import (
 	"fmt"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/internal/modes"
-	"github.com/ydb-platform/fq-connector-go/library/go/x/xruntime"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors/internal/modes"
+	"github.com/ninaiad/fq-connector-go/library/go/x/xruntime"
 )
 
 func DefaultStackTraceMode() {

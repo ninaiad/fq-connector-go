@@ -9,11 +9,11 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/server/conversion"
-	"github.com/ydb-platform/fq-connector-go/app/server/datasource"
-	"github.com/ydb-platform/fq-connector-go/app/server/paging"
-	"github.com/ydb-platform/fq-connector-go/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/server/conversion"
+	"github.com/ninaiad/fq-connector-go/app/server/datasource"
+	"github.com/ninaiad/fq-connector-go/app/server/paging"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var _ datasource.TypeMapper = typeMapper{}
@@ -74,7 +74,7 @@ func (tm typeMapper) SQLTypeToYDBColumn(
 			typeName, common.ErrDataTypeNotSupported)
 	}
 
-	// Reference table: https://github.com/ydb-platform/fq-connector-go/blob/main/docs/type_mapping_table.md
+	// Reference table: https://github.com/ninaiad/fq-connector-go/blob/main/docs/type_mapping_table.md
 	switch { // JSON needs custom parser, has composite type name structure. Possible to parse into Arrow struct
 	case typeName == "Bool":
 		ydbType = common.MakePrimitiveType(Ydb.Type_BOOL)

@@ -1,4 +1,4 @@
-module github.com/ydb-platform/fq-connector-go
+module github.com/ninaiad/fq-connector-go
 
 go 1.22.0
 

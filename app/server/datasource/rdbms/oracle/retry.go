@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ydb-platform/fq-connector-go/app/server/utils/retry"
+	"github.com/ninaiad/fq-connector-go/app/server/utils/retry"
 )
 
 func ErrorCheckerMakeConnection(err error) bool {

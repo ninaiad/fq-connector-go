@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/prometheus/procfs"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/buildinfo"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/buildinfo"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
 )
 
 var _ Func = GoMetrics

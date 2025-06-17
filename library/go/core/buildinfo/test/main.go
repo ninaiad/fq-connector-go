@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/buildinfo"
+	"github.com/ninaiad/fq-connector-go/library/go/core/buildinfo"
 )
 
 func main() {

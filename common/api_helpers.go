@@ -7,7 +7,7 @@ import (
 	"github.com/apache/arrow/go/v13/arrow"
 	"github.com/apache/arrow/go/v13/arrow/ipc"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 func ListSplitsResponsesToSplits(in []*api_service_protos.TListSplitsResponse) []*api_service_protos.TSplit {

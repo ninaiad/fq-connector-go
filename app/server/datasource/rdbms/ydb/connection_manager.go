@@ -14,9 +14,9 @@ import (
 	ydb_sugar "github.com/ydb-platform/ydb-go-sdk/v3/sugar"
 	yc "github.com/ydb-platform/ydb-go-yc"
 
-	"github.com/ydb-platform/fq-connector-go/app/config"
-	rdbms_utils "github.com/ydb-platform/fq-connector-go/app/server/datasource/rdbms/utils"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/config"
+	rdbms_utils "github.com/ninaiad/fq-connector-go/app/server/datasource/rdbms/utils"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 type Connection interface {

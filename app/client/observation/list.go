@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ydb-platform/fq-connector-go/api/observation"
+	"github.com/ninaiad/fq-connector-go/api/observation"
 )
 
 func listIncomingQueries(cmd *cobra.Command, _ []string, state observation.QueryState) error {

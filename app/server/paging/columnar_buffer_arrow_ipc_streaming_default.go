@@ -10,7 +10,7 @@ import (
 	"github.com/apache/arrow/go/v13/arrow/memory"
 	"go.uber.org/zap"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 var _ ColumnarBuffer[any] = (*columnarBufferArrowIPCStreamingDefault[any])(nil)

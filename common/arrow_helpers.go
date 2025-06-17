@@ -10,7 +10,7 @@ import (
 
 	"github.com/ydb-platform/ydb-go-genproto/protos/Ydb"
 
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
 )
 
 type ValueType interface {
@@ -188,7 +188,7 @@ func ydbTypeIdToArrowBuilder(typeID Ydb.Type_PrimitiveTypeId, arrowAllocator mem
 
 //nolint:gocyclo
 func ydbTypeToArrowField(ydbType *Ydb.Type, column *Ydb.Column) (arrow.Field, error) {
-	// Reference table: https://github.com/ydb-platform/fq-connector-go/blob/main/docs/type_mapping_table.md
+	// Reference table: https://github.com/ninaiad/fq-connector-go/blob/main/docs/type_mapping_table.md
 	var (
 		field arrow.Field
 		err   error

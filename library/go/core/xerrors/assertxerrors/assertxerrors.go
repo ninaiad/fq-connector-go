@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors/internal/modes"
-	"github.com/ydb-platform/fq-connector-go/library/go/test/testhelpers"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors/internal/modes"
+	"github.com/ninaiad/fq-connector-go/library/go/test/testhelpers"
 )
 
 func RunTestsPerMode(t *testing.T, expected Expectations, constructor func(t *testing.T) error) {

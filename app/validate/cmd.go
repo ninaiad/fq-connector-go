@@ -10,8 +10,8 @@ import (
 	"gopkg.in/yaml.v3"
 	sigs_yaml "sigs.k8s.io/yaml"
 
-	"github.com/ydb-platform/fq-connector-go/app/server/config"
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/app/server/config"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 var Cmd = &cobra.Command{

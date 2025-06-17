@@ -6,11 +6,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ydb-platform/fq-connector-go/app/bench"
-	"github.com/ydb-platform/fq-connector-go/app/client"
-	"github.com/ydb-platform/fq-connector-go/app/server"
-	"github.com/ydb-platform/fq-connector-go/app/validate"
-	"github.com/ydb-platform/fq-connector-go/app/version"
+	"github.com/ninaiad/fq-connector-go/app/bench"
+	"github.com/ninaiad/fq-connector-go/app/client"
+	"github.com/ninaiad/fq-connector-go/app/server"
+	"github.com/ninaiad/fq-connector-go/app/validate"
+	"github.com/ninaiad/fq-connector-go/app/version"
 )
 
 var rootCmd = &cobra.Command{

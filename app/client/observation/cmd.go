@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/ydb-platform/fq-connector-go/api/observation"
+	"github.com/ninaiad/fq-connector-go/api/observation"
 )
 
 const (

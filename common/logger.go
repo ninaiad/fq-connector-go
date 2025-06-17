@@ -10,9 +10,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest"
 
-	api_common "github.com/ydb-platform/fq-connector-go/api/common"
-	api_service_protos "github.com/ydb-platform/fq-connector-go/api/service/protos"
-	"github.com/ydb-platform/fq-connector-go/app/config"
+	api_common "github.com/ninaiad/fq-connector-go/api/common"
+	api_service_protos "github.com/ninaiad/fq-connector-go/api/service/protos"
+	"github.com/ninaiad/fq-connector-go/app/config"
 )
 
 // TODO: it's better to do this in GRPC middleware

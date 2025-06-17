@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/xerrors"
+	"github.com/ninaiad/fq-connector-go/library/go/core/xerrors"
 )
 
 type spackVersion uint16

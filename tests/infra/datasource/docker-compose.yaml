@@ -102,7 +102,7 @@ services:
         hard: 262144
 
   mongodb:
-    image: mongo:7.0.0
+    image: mongo:latest
     container_name: ${USER}-fq-connector-go-tests-mongodb
     ports:
       - '27017:27017'

@@ -3,8 +3,8 @@ package mock
 import (
 	"sync"
 
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics"
-	"github.com/ydb-platform/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics"
+	"github.com/ninaiad/fq-connector-go/library/go/core/metrics/internal/pkg/registryutil"
 )
 
 type MetricsVector interface {

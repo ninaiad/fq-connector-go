@@ -9,7 +9,7 @@ import (
 	"github.com/jackc/pgx/v5/pgtype"
 	bson_primitive "go.mongodb.org/mongo-driver/bson/primitive"
 
-	"github.com/ydb-platform/fq-connector-go/common"
+	"github.com/ninaiad/fq-connector-go/common"
 )
 
 // Some acceptors belong to fixed-size types (integers, floats, booleans),
